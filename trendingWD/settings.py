@@ -129,3 +129,8 @@ STATICFILES_DIRS = [
   os.path.join(BASE_DIR, 'homepageapp/templates/homepageapp/static/')
 ]
 MEDIA_URL = '/media/'
+
+try:
+    from local_settings import *
+except ImportError:
+    pass
