@@ -1,0 +1,40 @@
+body {
+    font-family: Roboto,"PT Sans",Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,sans-serif;
+    font-weight: 400;
+    padding-top: 56px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 4.5rem;
+    background: #fff;
+    font-size: 1.0625rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    min-width: 320px;
+    margin-bottom: 3.25rem;
+    display: block;
+    margin: 0;
+    padding-bottom: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    font-size: 1.0625rem;
+}
+
+a {
+    color: inherit;
+}
+.fa-retweet:hover, .fa-heart:hover {
+    color: #1DA1F2;
+}
